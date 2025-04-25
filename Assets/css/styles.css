@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#carouselExampleInterval {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    border-radius: 1%;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#center_screen {
+    display: flex;
+    gap: 50px;
+}
+
+main {
+    margin: 50px 20% 50px 20%;
+    background-color: #fff;
+    border-radius: 0.5%;
+    height: fit-content;
+}
+
+article {
+    padding: 30px 2px;
+    width: 60%;
+}
+
+aside {
+    width: 40%;
+    margin: 20px;
+}
+
+#logo_furia {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f5;
+}
+
+#logo_furia {
+    padding-top: 80px;
+}
+
+#logo_furia img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+ul.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+li {
+    list-style-type: square;
+}
+
+.card,
+.card-img-top {
+    width: 300px;
+    height: 00px;
+}
+
+.figure{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.figure img{
+    width: 30vw;
+    height: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+figure{
+    margin: 0;
+}
+
+#card{
+    margin: 0px 20px 0px 20px;
+}
+
+#titulo_principal{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    padding: 20px;
+    text-align: left;
+}
+
+#titulo_aside, #produtos, h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 25pt;
+    padding: 20px;
+    text-align: left;
+}
+
+li, p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    text-align: left;
+    padding: 10px;
+}
+
+#informações{
+    margin: 20px;
+}
+
+.titulo_produtos{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.link_produtos {
+    text-align: center;
+}
+
+#rodape{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+#copyright{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    text-align: center;
+    color: #fff;
+}
+
+.figure-img:hover{
+    transform: scale(1.05);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      transition: .2s;
+}

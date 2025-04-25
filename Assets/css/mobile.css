@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    main {
+        margin: 50px 0% 50px 0%;
+    }
+}
+
+@media (max-width: 800px) {
+    #center_screen article {
+        display: none;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    .figure{
+        display: block;
+    }
+
+    .figure img{
+        width: 100%;
+        height: auto;
+    }
+
+    article{
+        width: 90%;
+    }
+
+    #logo_furia {
+        padding-top: 200px;
+    }
+
+    .nav-link {
+        font-size: 10pt;
+    }
+}
